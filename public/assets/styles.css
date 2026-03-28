@@ -1,0 +1,175 @@
+/* frontend-app/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+a:active {
+  color: #23527c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  background-color: #23527c;
+}
+
+button:active, input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
+  background-color: #23527c;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="time"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], input[type="color"], input[type="email"], input[type="file"], input[type="range"], input[type="checkbox"], input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], input[type="file"] {
+  padding: 10px 20px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+}
+
+input[type="checkbox"] {
+  padding: 0;
+  margin: 0;
+}
+
+input[type="radio"] {
+  padding: 0;
+  margin: 0;
+}
+
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+  outline: none;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="email"]:focus, input[type="file"]:focus, input[type="range"]:focus, input[type="checkbox"]:focus, input[type="radio"]:focus {
+  outline: none;
+  border-color: #337ab7;
+}
+
+input[type="submit"]:disabled, input[type="reset"]:disabled, input[type="button"]:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+input[type="submit"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="button"]:disabled:hover {
+  background-color: #ccc;
+}
+
+input[type="submit"]:disabled:active, input[type="reset"]:disabled:active, input[type="button"]:disabled:active {
+  background-color: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+```
+
+Note: This is a basic CSS file with some common styles, but it's not a full CSS framework. You may need to add or modify styles to suit your specific needs.
